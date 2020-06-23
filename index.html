@@ -10,6 +10,9 @@
         <style>
             body{
                 background-color: rgb(153, 252, 255);
+                background-image: url("chessbg.png");
+                background-size: contain;
+                background-repeat: no-repeat;
             }
         </style>
 
@@ -62,7 +65,6 @@
     <nav>
         <a href="secondpage.html">GO</a>
         <a href="#bottomofpage">this goes to the bottom of the page</a>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ChessSet.jpg" alt="online chess image" width="400" height="400">
     </nav>
         <!--
         <a href="full url here">name that shows up</a>
@@ -74,18 +76,19 @@
         </section>
         <h2>Contents</h2>
         <ol>
-            <li>Rules</li>
+            <a href="#rules"><li>Rules</li></a>
                 <ol>
-                    <li>Setup</li>
-                    <li>Movement</li>
-                    <li>Castling</li>
+                    <a href="#setup"><li>Setup</li></a>
+                    <a href="#movement"><li>Movement</li></a>
+                    <a href="#castling"><li>Castling</li></a>
+                    <a href="#promo"><li>Promotion</li></a>
                 </ol>
             <li>History</li>
             <li>Place In Culture</li>
         </ol>
         <section>
-        <h2>Rules</h2>
-        <h3>Setup</h3>
+        <h2 id="rules">Rules</h2>
+        <h3 id="setup">Setup</h3>
         <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/ChessStartingPosition.jpg" alt="online chess table image" width="200" height="200">
         <!-- <h1> means heading 1
             <p> means paragraph
@@ -105,7 +108,8 @@
         </p>
         </section>
         <section>
-        <h3>Movement</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ChessSet.jpg" alt="online chess image" width="400" height="400">
+        <h3 id="movement">Movement</h3>
         <p>In competitive games, the colors are allocated by the organizers; in informal games, the colors are usually decided randomly, for example by coin toss, or by one player's concealing a white and black pawn in either hand and having the opponent choose. White moves first, after which players alternate turns, moving one piece per turn (except for castling, when two pieces are moved). A piece is moved to either an unoccupied square or one occupied by an opponent's piece, which is captured and removed from play. With the sole exception of en passant, all pieces capture by moving to the square that the opponent's piece occupies.
 
             Moving is compulsory; it is illegal to skip a turn, even when having to move is detrimental. A player may not make any move that would put or leave the player's own king in check. If the player to move has no legal move, the game is over; the result is either checkmate (a loss for the player with no legal move) if the king is in check, or stalemate (a draw) if the king is not.
@@ -120,7 +124,7 @@
         </p>
         </section>
         <section>
-        <h3>Castling</h3>
+        <h3 id=castling>Castling</h3>
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/ChessCastlingMovie_en.svg" alt="online chess table image" width="200" height="200">
             <p>Once in every game, each king can make a special move, known as castling. Castling consists of moving the king two squares along the first rank toward a rook (that is on the player's first rank and then placing the rook on the last square that the king just crossed. Castling is permissible if the following conditions are met:[4]
 
@@ -131,7 +135,7 @@
                 " alt="online chess table image" width="200" height="200">
         </section>
         <section>
-                <h3>Promotion</h3>
+                <h3 id="promo">Promotion</h3>
         <p>When a pawn advances to the eighth rank, as a part of the move it is promoted and must be exchanged for the player's choice of queen, rook, bishop, or knight of the same color. Usually, the pawn is chosen to be promoted to a queen, but in some cases another piece is chosen; this is called underpromotion. In the animated diagram, the pawn on c7 can be advanced to the eighth rank and be promoted. There is no restriction on the piece promoted to, so it is possible to have more pieces of the same type than at the start of the game (e.g., two or more queens).</p>
         </section>
         <section>
