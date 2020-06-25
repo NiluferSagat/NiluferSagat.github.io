@@ -6,6 +6,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+h2{
+    padding-left: 20px;
+}
 img{
     border-radius: 20px;
 }
@@ -16,10 +19,21 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(39, 65, 218);
     text-shadow: 2px 1px white;
+    
+    
+}
+section div{
+    background-color: rgba(243, 192, 52, 0.479);
+    width: 200px;
+    padding-left: 10px;
 }
 #menu{
-    color: rgb(39, 65, 218);
+    
+    color: blue;
+  text-shadow: 2px 2px 2px white, 0 0 25px blue, 0 0 5px blueviolet;
+   /* color: rgb(39, 65, 218);
     text-shadow:  2px 1px white;
+    */
 }
 #rules{
     color: rgb(39, 65, 218);
